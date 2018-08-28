@@ -1,0 +1,166 @@
+body{
+    top: 0;
+    left:0;
+}
+
+.main{
+    position:relative;
+    background: #efefef;
+    width: 400px;
+    height: 400px;
+    margin: 200px auto 0 auto;
+    top: 0;
+    border: 3px solid #000000;
+}
+
+.logo{
+    position:absolute;
+    width:100px;
+    height: 20px;
+    line-height: 20px;
+    left:303px;
+    top:-23px;
+    font-size:20px;
+    font-weight: bold;
+    color:red;
+}
+
+.start{
+    position:absolute;
+    width:100px;
+    height: 20px;
+    line-height: 20px;
+    left:-3px;
+    top:403px;
+    font-weight: bold;
+    font-size:15px;
+    color:red;
+    cursor: pointer;
+}
+
+.pause{
+    position:absolute;
+    width:100px;
+    height: 20px;
+    line-height: 20px;
+    left:63px;
+    top:403px;
+    font-weight: bold;
+    font-size:15px;
+    color:deeppink;
+    cursor: pointer;
+}
+
+.reset{
+    position:absolute;
+    width:100px;
+    height: 20px;
+    line-height: 20px;
+    left:130px;
+    top:403px;
+    font-weight: bold;
+    font-size:15px;
+    color:dodgerblue;
+    cursor: pointer;
+}
+
+.stop{
+    position:absolute;
+    width:100px;
+    height: 20px;
+    line-height: 20px;
+    left:193px;
+    top:403px;
+    font-weight: bold;
+    font-size:15px;
+    cursor: pointer;
+}
+
+.breadcrumb{
+    position: absolute;
+    border-radius: 6px;
+    width: 6px;
+    height: 6px;
+    background: lightseagreen;
+}
+
+.greed_breadcrumb{
+    position: absolute;
+    border-radius: 7px;
+    width: 7px;
+    height: 7px;
+    background: blue;
+}
+
+.red_breadcrumb{
+    position: absolute;
+    border-radius: 8px;
+    width: 8px;
+    height: 8px;
+    background: orangered;
+}
+
+.active{
+    position:absolute;
+    border: 2px solid greenyellow;
+    background: greenyellow;
+}
+
+.active_head{
+    position:absolute;
+    border: 2px solid green;
+    background: green;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.active_tail{
+    position:absolute;
+    border: 2px solid red;
+    background: red;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+}
+
+.snake{
+    position: absolute;;
+    width:400px;
+    height: 400px;
+    top: 0;
+    left: 0;
+}
+
+.bread{
+    position: absolute;
+    width:400px;
+    height: 400px;
+    top: 0;
+    left: 0;
+}
+
+.pause_view{
+    position: absolute;;
+    width:400px;
+    padding-top: 180px;
+    height: 220px;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,0.9);
+    display: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.over_view{
+    position: absolute;;
+    width:400px;
+    padding-top: 180px;
+    height: 220px;
+    top: 0;
+    left: 0;
+    background: rgba(65,235,255,0.9);
+    display: none;
+    text-align: center;
+    font-weight: bold;
+}
